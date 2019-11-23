@@ -10,3 +10,8 @@ WORKDIR /tmp/iriclib-0.2/build
 RUN cmake -D HDF5_LIBRARIES=/usr/lib/x86_64-linux-gnu/hdf5/serial/lib/libhdf5.so ..
 RUN make
 RUN make install
+WORKDIR /tmp
+RUN rm -rf iriclib-0.2
+RUN rm v0.2.tar.gz
+RUN mkdir /data
+WORKDIR /data
