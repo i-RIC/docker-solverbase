@@ -39,8 +39,8 @@ The following libraries are installed.
 * hdf5, cgnslib library in /usr/lib/x86_64_linux-gnu (only runtimes, no headers)
 * iriclib library in /usr/local/lib
 
-We recommend this image to use this image, because this is much smaller than iric/solver-build.
+We recommend to run models using this image, because this is much smaller than iric/solver-build.
 
 ## How to build image to run models
 
-TODO: add description here
+TODO
